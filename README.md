@@ -131,8 +131,32 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+
+#include <stdio.h>
+
+int main()
+{
+    int num = 100;
+    float f = 12.5f;
+    double d = 12345.6789;
+    char ch = 'A';
+
+    printf("Integer Value   = %d\n", num);
+    printf("Float Value     = %.2f\n", f);
+    printf("Double Value    = %lf\n", d);
+    printf("Character Value = %c\n", ch);
+
+    return 0;
+}
+
+<img width="1882" height="740" alt="image" src="https://github.com/user-attachments/assets/f318f897-04e7-41a2-af53-149735210610" />
+
 # Output:
+
+<img width="1882" height="740" alt="image" src="https://github.com/user-attachments/assets/3f59de2f-274b-41b1-a21b-92ba9beac263" />
+
 # Result: 
+Thus, the C program was successfully developed to declare variables of different data types (int, float, double, and char), initialize them with values, and display their values on the screen using the printf() function.
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC

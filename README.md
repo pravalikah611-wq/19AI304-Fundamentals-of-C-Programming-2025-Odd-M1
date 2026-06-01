@@ -4,7 +4,7 @@
 ## 2. Implementation of different categories of operators.
 # Ex.No:1
   Build a C program to demonstrate the usage of different types of literals: integer, float, character, and string.  
-# Date : 
+# Date : 01-06-2026
 # Aim:
 To build a C program that prints integer, float,character, and string literals on the console using the printf() function.
 # Algorithm:
@@ -26,7 +26,27 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+#include <stdio.h>
+
+int main()
+{
+    printf("Integer Literal : %d\n", 100);
+    
+    printf("Float Literal   : %.2f\n", 25.75);
+    
+    printf("Character Literal : %c\n", 'A');
+    
+    printf("String Literal  : %s\n", "Hello World");
+
+    return 0;
+}
+
+<img width="810" height="449" alt="Screenshot 2026-06-01 150803" src="https://github.com/user-attachments/assets/b3975892-0716-40ec-adc5-578331544b03" />
+
 # Output:
+
+<img width="776" height="307" alt="Screenshot 2026-06-01 150811" src="https://github.com/user-attachments/assets/b39f9716-5a22-4604-b996-06108f95fd7e" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +77,37 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+
+#include <stdio.h>
+
+#define PI 3.14159
+#define MAX 100
+
+int main()
+{
+    const int age = 20;
+    
+    const float rate = 7.5;
+
+    printf("Macro Constant PI = %.5f\n", PI);
+    
+    printf("Macro Constant MAX = %d\n", MAX);
+
+    printf("Constant Variable age = %d\n", age);
+    
+    printf("Constant Variable rate = %.1f\n", rate);
+
+    return 0;
+}
+
+<img width="1048" height="493" alt="Screenshot 2026-06-01 151025" src="https://github.com/user-attachments/assets/3266142c-943e-4958-ae1a-f1fb8596738c" />
+
+
+
 # Output:
+
+<img width="818" height="381" alt="Screenshot 2026-06-01 151033" src="https://github.com/user-attachments/assets/ea6e44c2-ea6d-4ee3-9b39-254df76f2ce4" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -120,7 +170,43 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+
+    /* Arithmetic Operations */
+    printf("Sum = %d\n", a + b);
+    printf("Difference = %d\n", a - b);
+    printf("Product = %d\n", a * b);
+    printf("Quotient = %d\n", a / b);
+    printf("Remainder = %d\n", a % b);
+
+    /* Bitwise Operations */
+    printf("Bitwise AND = %d\n", a & b);
+    printf("Bitwise OR = %d\n", a | b);
+    printf("Bitwise XOR = %d\n", a ^ b);
+    printf("Left Shift (a << b) = %d\n", a << b);
+    printf("Right Shift (a >> b) = %d\n", a >> b);
+    printf("Bitwise NOT of a = %d\n", ~a);
+    printf("Bitwise NOT of b = %d\n", ~b);
+
+    return 0;
+}
+
+<img width="1835" height="668" alt="Screenshot 2026-06-01 151404" src="https://github.com/user-attachments/assets/86e68932-4d89-4ce5-870e-fffd8a26db82" />985c-c5b61e519fda" />
+
 # Output:
+
+
+<img width="1835" height="668" alt="Screenshot 2026-06-01 151404" src="https://github.com/user-attachments/assets/157f3fdd-81f7-4262-a98b-c0ea64bd7882" />
+
+
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,7 +251,33 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    (ch >= '0' && ch <= '9') ?
+        printf("Digit") :
+        ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) ?
+            ((ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' ||
+              ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') ?
+                printf("Vowel") :
+                printf("Consonant")) :
+            printf("Special Symbol");
+
+    return 0;
+}
+
+<img width="1852" height="635" alt="image" src="https://github.com/user-attachments/assets/2454ac9a-8764-46cf-bf31-6bdc44dd27f3" />
+
 # Output:
+<img width="1852" height="635" alt="image" src="https://github.com/user-attachments/assets/be9421cf-af8a-4ffb-86cc-fa067dfc7038" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 

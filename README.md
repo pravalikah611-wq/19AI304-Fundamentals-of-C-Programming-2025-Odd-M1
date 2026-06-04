@@ -77,36 +77,26 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
-
 #include <stdio.h>
 
 #define PI 3.14159
-#define MAX 100
 
 int main()
 {
-    const int age = 20;
-    
-    const float rate = 7.5;
+    const int DAYS = 7;
 
-    printf("Macro Constant PI = %.5f\n", PI);
-    
-    printf("Macro Constant MAX = %d\n", MAX);
-
-    printf("Constant Variable age = %d\n", age);
-    
-    printf("Constant Variable rate = %.1f\n", rate);
+    printf("PI = %.5f\n", PI);
+    printf("DAYS = %d\n", DAYS);
 
     return 0;
 }
-
-<img width="1048" height="493" alt="Screenshot 2026-06-01 151025" src="https://github.com/user-attachments/assets/3266142c-943e-4958-ae1a-f1fb8596738c" />
+<img width="1854" height="766" alt="image" src="https://github.com/user-attachments/assets/9863cab9-506b-4a86-8a57-832ba483b9f4" />
 
 
 
 # Output:
 
-<img width="818" height="381" alt="Screenshot 2026-06-01 151033" src="https://github.com/user-attachments/assets/ea6e44c2-ea6d-4ee3-9b39-254df76f2ce4" />
+<<img width="1854" height="766" alt="image" src="https://github.com/user-attachments/assets/8b855719-f074-46e6-9ff1-efb60f85f7ff" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
